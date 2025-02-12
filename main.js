@@ -54,12 +54,17 @@ ScrollReveal().reveal('.home-contact p, .about-content',{origin: 'right'});
 
 /*---------------- Typed JS--------------------------- */
 
-const typed = new Typed('.multiple-text',{
-    strings: ['Frontend Developer', 'Web Designer', 'Youtuber'],
-    typeSpeed : 70,
-    backSpeed: 70,
+
+var typed = new Typed("#element", {
+    strings: ["Frontend Developer", "Web Designer", "Youtuber","Backend Developer","FullStack Developer","Coder"],
+    typeSpeed : 50,
+    startDelay: 500,
     backDelay: 1000,
+    backSpeed: 15,
     loop: true,
+    loopCount: 2,
+    showCursor: true,
+    cursorChar:"..."
 });
 
 
